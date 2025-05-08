@@ -90,3 +90,35 @@ label[for="phone"] {
 label[for="phone"] i {
   cursor: pointer;
 }
+
+
+
+.message {
+  background-color: #08A800;
+  width: 600px;
+  height: 200px;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 270px;
+  left: 450px;
+}
+
+.fault {
+  background-color: red;
+  width: 600px;
+  height: 200px;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 270px;
+  left: 450px;
+}

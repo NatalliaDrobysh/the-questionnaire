@@ -23,7 +23,7 @@ fetch(`https://polinashneider.space/user`, {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer: PolinaShneider'
+      'Authorization': 'Bearer: PolinaShneiderNat'
     },
     body: JSON.stringify({
       "name": "Полина",
