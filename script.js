@@ -19,7 +19,7 @@ form.addEventListener("submit", (event) => {
       secondName: document.querySelector('#secondName').value,
       phone: document.querySelector('#phone').value,
       email: document.querySelector('#email').value,
-      agree: document.querySelector('#agree').cheched,
+      agree: document.querySelector('#agree').checked,
     })
   })
   .then ((result) => {
@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
   .then ((data) => {
     const confirmation = document.createElement('p');
     confirmation.classList.add("message");
-    confirmation.textContent = 'Данные успешно добавленны';
+    confirmation.textContent = 'Данные успешно добавлены';
     container.append(confirmation);
     const timerId = setTimeout (function() {
      confirmation.remove();
